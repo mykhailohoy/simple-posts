@@ -1,0 +1,21 @@
+.headline {
+  .heading {
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+  }
+  svg {
+    vertical-align: text-top;
+    margin-left: 10px;
+  }
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 600px;
+  margin: 0 auto;
+  .active {
+    text-decoration: underline;
+  }
+}
